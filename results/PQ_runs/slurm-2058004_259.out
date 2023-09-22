@@ -1,0 +1,15 @@
+Using parameter file /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_params.csv
+Using template file /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_template.dat
+Read param line 259: 432,1,2
+Read param BLOCK_SIZE: 432
+Temp directory: /carc/scratch/users/rdscher/tmp.jsqKHFGAtZ
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.jsqKHFGAtZ/259
+Now running in /carc/scratch/users/rdscher/tmp.jsqKHFGAtZ/259
+Running xhpl in /carc/scratch/users/rdscher/tmp.jsqKHFGAtZ/259...
+To request GPUs, add --gpus-per-node X or --gpus X, where X is the desired number of GPUs.
+Job 2058266 running on hopper[024-025]
+slurmstepd: error: Detected 24 oom-kill event(s) in StepId=2058266.0. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: hopper024: task 0: Out Of Memory
+slurmstepd: error: *** STEP 2058266.0 ON hopper024 CANCELLED AT 2023-09-20T20:55:32 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 2058266 ON hopper024 CANCELLED AT 2023-09-20T20:55:32 DUE TO TIME LIMIT ***
+slurmstepd: error: Detected 24 oom-kill event(s) in StepId=2058266.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

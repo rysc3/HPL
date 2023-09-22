@@ -1,0 +1,28 @@
+Using parameter file /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_params.csv
+Using template file /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_template.dat
+Read param line 100: 1584
+Read param BLOCK_SIZE: 1584
+Temp directory: /carc/scratch/users/rdscher/tmp.fAu0D6jhgv
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.fAu0D6jhgv/100
+Now running in /carc/scratch/users/rdscher/tmp.fAu0D6jhgv/100
+Running xhpl in /carc/scratch/users/rdscher/tmp.fAu0D6jhgv/100...
+To request GPUs, add --gpus-per-node X or --gpus X, where X is the desired number of GPUs.
+Job 2057918 running on hopper[058-059]
+[hopper058:58463] *** An error occurred in MPI_Send
+[hopper058:58463] *** reported by process [1723727872,1]
+[hopper058:58463] *** on communicator MPI COMMUNICATOR 4 SPLIT FROM 3
+[hopper058:58463] *** MPI_ERR_OTHER: known error not in list
+[hopper058:58463] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[hopper058:58463] ***    and potentially your MPI job)
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=2057918.0. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: *** STEP 2057918.0 ON hopper058 CANCELLED AT 2023-09-20T19:02:21 ***
+srun: error: hopper058: tasks 0,2-7: Out Of Memory
+srun: error: hopper059: tasks 8-15: Killed
+xhpl finished
+Results: Gflops : Rate of execution for solving the linear system. The following parameter values will be used:
+Results data: Gflops : Rate of execution for solving the linear system. The following parameter values will be used:
+Results Gflops: used:
+Writing input parameters and gflops to /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_results.csv
+Deleted /carc/scratch/users/rdscher/tmp.fAu0D6jhgv
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=2057918.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

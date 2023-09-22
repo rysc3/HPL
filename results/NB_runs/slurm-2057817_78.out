@@ -1,0 +1,29 @@
+Using parameter file /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_params.csv
+Using template file /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_template.dat
+Read param line 78: 1232
+Read param BLOCK_SIZE: 1232
+Temp directory: /carc/scratch/users/rdscher/tmp.tvavH0vvXC
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.tvavH0vvXC/78
+Now running in /carc/scratch/users/rdscher/tmp.tvavH0vvXC/78
+Running xhpl in /carc/scratch/users/rdscher/tmp.tvavH0vvXC/78...
+To request GPUs, add --gpus-per-node X or --gpus X, where X is the desired number of GPUs.
+Job 2057896 running on hopper[060-061]
+slurmstepd: error: Detected 2 oom-kill event(s) in StepId=2057896.0. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: hopper060: tasks 3,5: Out Of Memory
+[hopper061:46611] *** An error occurred in MPI_Send
+[hopper061:46611] *** reported by process [1722286080,13]
+[hopper061:46611] *** on communicator MPI COMMUNICATOR 5 SPLIT FROM 3
+[hopper061:46611] *** MPI_ERR_OTHER: known error not in list
+[hopper061:46611] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[hopper061:46611] ***    and potentially your MPI job)
+slurmstepd: error: *** STEP 2057896.0 ON hopper060 CANCELLED AT 2023-09-20T18:51:30 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: hopper061: tasks 8-12,14-15: Killed
+srun: error: hopper061: task 13: Exited with exit code 16
+xhpl finished
+Results: Gflops : Rate of execution for solving the linear system. The following parameter values will be used:
+Results data: Gflops : Rate of execution for solving the linear system. The following parameter values will be used:
+Results Gflops: used:
+Writing input parameters and gflops to /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_results.csv
+Deleted /carc/scratch/users/rdscher/tmp.tvavH0vvXC
+slurmstepd: error: Detected 2 oom-kill event(s) in StepId=2057896.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

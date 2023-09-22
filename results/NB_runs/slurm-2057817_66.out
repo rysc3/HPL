@@ -1,0 +1,42 @@
+Using parameter file /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_params.csv
+Using template file /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_template.dat
+Read param line 66: 1040
+Read param BLOCK_SIZE: 1040
+Temp directory: /carc/scratch/users/rdscher/tmp.gscTW1W4vt
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.gscTW1W4vt/66
+Now running in /carc/scratch/users/rdscher/tmp.gscTW1W4vt/66
+Running xhpl in /carc/scratch/users/rdscher/tmp.gscTW1W4vt/66...
+To request GPUs, add --gpus-per-node X or --gpus X, where X is the desired number of GPUs.
+Job 2057884 running on hopper[062-063]
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=2057884.0. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: hopper062: task 4: Out Of Memory
+[hopper063:44103] *** An error occurred in MPI_Send
+[hopper063:44103] *** reported by process [1721499648,12]
+[hopper063:44103] *** on communicator MPI COMMUNICATOR 5 SPLIT FROM 3
+[hopper063:44103] *** MPI_ERR_OTHER: known error not in list
+[hopper063:44103] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[hopper063:44103] ***    and potentially your MPI job)
+srun: error: hopper063: task 12: Exited with exit code 16
+[hopper063:44099] *** An error occurred in MPI_Send
+[hopper063:44099] *** reported by process [1721499648,8]
+[hopper063:44099] *** on communicator MPI COMMUNICATOR 4 SPLIT FROM 3
+[hopper063:44099] *** MPI_ERR_OTHER: known error not in list
+[hopper063:44099] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[hopper063:44099] ***    and potentially your MPI job)
+[hopper062:45534] *** An error occurred in MPI_Send
+[hopper062:45534] *** reported by process [1721499648,0]
+[hopper062:45534] *** on communicator MPI COMMUNICATOR 4 SPLIT FROM 3
+[hopper062:45534] *** MPI_ERR_OTHER: known error not in list
+[hopper062:45534] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[hopper062:45534] ***    and potentially your MPI job)
+srun: error: hopper063: task 8: Exited with exit code 16
+slurmstepd: error: *** STEP 2057884.0 ON hopper062 CANCELLED AT 2023-09-20T18:49:27 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: hopper063: tasks 9-11,13-15: Killed
+xhpl finished
+Results: Gflops : Rate of execution for solving the linear system. The following parameter values will be used:
+Results data: Gflops : Rate of execution for solving the linear system. The following parameter values will be used:
+Results Gflops: used:
+Writing input parameters and gflops to /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_results.csv
+Deleted /carc/scratch/users/rdscher/tmp.gscTW1W4vt
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=2057884.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

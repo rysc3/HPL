@@ -1,0 +1,24 @@
+Using parameter file /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_params.csv
+Using template file /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_template.dat
+Read param line 249: 208,7,8
+Read param BLOCK_SIZE: 208
+Temp directory: /carc/scratch/users/rdscher/tmp.diVk4s7AVc
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.diVk4s7AVc/249
+Now running in /carc/scratch/users/rdscher/tmp.diVk4s7AVc/249
+Running xhpl in /carc/scratch/users/rdscher/tmp.diVk4s7AVc/249...
+To request GPUs, add --gpus-per-node X or --gpus X, where X is the desired number of GPUs.
+Job 2058256 running on hopper[013-014]
+HPL ERROR from process # 0, on line 419 of function HPL_pdinfo:
+>>> Need at least 56 processes for these tests <<<
+
+HPL ERROR from process # 0, on line 621 of function HPL_pdinfo:
+>>> Illegal input in file HPL.dat. Exiting ... <<<
+
+srun: error: hopper013: tasks 0-7: Exited with exit code 1
+srun: error: hopper014: tasks 8-15: Exited with exit code 1
+xhpl finished
+Results:
+Results data:
+Results Gflops:
+Writing input parameters and gflops to /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_results.csv
+Deleted /carc/scratch/users/rdscher/tmp.diVk4s7AVc

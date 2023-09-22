@@ -1,0 +1,34 @@
+Using parameter file /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_params.csv
+Using template file /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_template.dat
+Read param line 206: 208,2,5
+Read param BLOCK_SIZE: 208
+Temp directory: /carc/scratch/users/rdscher/tmp.PecztDn1PZ
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.PecztDn1PZ/206
+Now running in /carc/scratch/users/rdscher/tmp.PecztDn1PZ/206
+Running xhpl in /carc/scratch/users/rdscher/tmp.PecztDn1PZ/206...
+To request GPUs, add --gpus-per-node X or --gpus X, where X is the desired number of GPUs.
+Job 2058212 running on hopper[013-014]
+slurmstepd: error: Detected 7 oom-kill event(s) in StepId=2058212.0. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: hopper013: task 3: Out Of Memory
+[hopper013:834167] *** An error occurred in MPI_Send
+[hopper013:834167] *** reported by process [1742995456,0]
+[hopper013:834167] *** on communicator MPI COMMUNICATOR 4 SPLIT FROM 3
+[hopper013:834167] *** MPI_ERR_OTHER: known error not in list
+[hopper013:834167] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[hopper013:834167] ***    and potentially your MPI job)
+[hopper013:834168] *** An error occurred in MPI_Send
+[hopper013:834168] *** reported by process [1742995456,1]
+[hopper013:834168] *** on communicator MPI COMMUNICATOR 4 SPLIT FROM 3
+[hopper013:834168] *** MPI_ERR_OTHER: known error not in list
+[hopper013:834168] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[hopper013:834168] ***    and potentially your MPI job)
+slurmstepd: error: *** STEP 2058212.0 ON hopper013 CANCELLED AT 2023-09-20T20:35:40 ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: hopper014: tasks 8-15: Killed
+xhpl finished
+Results: Gflops : Rate of execution for solving the linear system. The following parameter values will be used:
+Results data: Gflops : Rate of execution for solving the linear system. The following parameter values will be used:
+Results Gflops: used:
+Writing input parameters and gflops to /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_results.csv
+Deleted /carc/scratch/users/rdscher/tmp.PecztDn1PZ
+slurmstepd: error: Detected 8 oom-kill event(s) in StepId=2058212.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

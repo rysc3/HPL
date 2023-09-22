@@ -1,0 +1,29 @@
+Using parameter file /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_params.csv
+Using template file /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_template.dat
+Read param line 207: 208,2,6
+Read param BLOCK_SIZE: 208
+Temp directory: /carc/scratch/users/rdscher/tmp.j4nN0ZGqgN
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.j4nN0ZGqgN/207
+Now running in /carc/scratch/users/rdscher/tmp.j4nN0ZGqgN/207
+Running xhpl in /carc/scratch/users/rdscher/tmp.j4nN0ZGqgN/207...
+To request GPUs, add --gpus-per-node X or --gpus X, where X is the desired number of GPUs.
+Job 2058213 running on hopper[013-014]
+slurmstepd: error: Detected 12 oom-kill event(s) in StepId=2058213.0. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: hopper013: task 6: Out Of Memory
+[1695263740.089568] [hopper013:834176:0]        mm_posix.c:206  UCX  ERROR open(file_name=/proc/834182/fd/14 flags=0x0) failed: No such file or directory
+[hopper013:834176] *** An error occurred in MPI_Send
+[hopper013:834176] *** reported by process [1743060992,0]
+[hopper013:834176] *** on communicator MPI COMMUNICATOR 5 SPLIT FROM 3
+[hopper013:834176] *** MPI_ERR_OTHER: known error not in list
+[hopper013:834176] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[hopper013:834176] ***    and potentially your MPI job)
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 2058213.0 ON hopper013 CANCELLED AT 2023-09-20T20:35:40 ***
+srun: error: hopper014: tasks 8-15: Killed
+xhpl finished
+Results: Gflops : Rate of execution for solving the linear system. The following parameter values will be used:
+Results data: Gflops : Rate of execution for solving the linear system. The following parameter values will be used:
+Results Gflops: used:
+Writing input parameters and gflops to /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_results.csv
+Deleted /carc/scratch/users/rdscher/tmp.j4nN0ZGqgN
+slurmstepd: error: Detected 12 oom-kill event(s) in StepId=2058213.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

@@ -1,0 +1,28 @@
+Using parameter file /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_params.csv
+Using template file /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_template.dat
+Read param line 128: 2032
+Read param BLOCK_SIZE: 2032
+Temp directory: /carc/scratch/users/rdscher/tmp.hwqXWXjAYY
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.hwqXWXjAYY/128
+Now running in /carc/scratch/users/rdscher/tmp.hwqXWXjAYY/128
+Running xhpl in /carc/scratch/users/rdscher/tmp.hwqXWXjAYY/128...
+To request GPUs, add --gpus-per-node X or --gpus X, where X is the desired number of GPUs.
+Job 2057947 running on hopper[058-059]
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=2057947.0. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: hopper058: task 2: Out Of Memory
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=2057947.0. Some of your processes may have been killed by the cgroup out-of-memory handler.
+[hopper058:59456] *** An error occurred in MPI_Send
+[hopper058:59456] *** reported by process [1725628416,1]
+[hopper058:59456] *** on communicator MPI COMMUNICATOR 4 SPLIT FROM 3
+[hopper058:59456] *** MPI_ERR_OTHER: known error not in list
+[hopper058:59456] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[hopper058:59456] ***    and potentially your MPI job)
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 2057947.0 ON hopper058 CANCELLED AT 2023-09-20T19:10:34 ***
+xhpl finished
+Results: Gflops : Rate of execution for solving the linear system. The following parameter values will be used:
+Results data: Gflops : Rate of execution for solving the linear system. The following parameter values will be used:
+Results Gflops: used:
+Writing input parameters and gflops to /users/rdscher/cs499/HPL/hopper/gcc-11/param_sweep/HPL_results.csv
+Deleted /carc/scratch/users/rdscher/tmp.hwqXWXjAYY
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=2057947.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
