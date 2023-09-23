@@ -1,0 +1,14 @@
+Using parameter file /users/rdscher/cs499/HPL/wheeler/gcc-11/param_sweep/HPL_params.csv
+Using template file /users/rdscher/cs499/HPL/wheeler/gcc-11/param_sweep/HPL_template.dat
+Read param line 50: 784
+Read param BLOCK_SIZE: 784
+Temp directory: /carc/scratch/users/rdscher/tmp.zbwQIAQiu6
+Created temporary working directory: /carc/scratch/users/rdscher/tmp.zbwQIAQiu6/50
+Now running in /carc/scratch/users/rdscher/tmp.zbwQIAQiu6/50
+Running xhpl in /carc/scratch/users/rdscher/tmp.zbwQIAQiu6/50...
+xhpl finished
+Results: Gflops : Rate of execution for solving the linear system. The following parameter values will be used: -- T/V N NB P Q Time Gflops -------------------------------------------------------------------------------- WR12R2R4 14616 784 2 8 20.00 1.0409e+02
+Results data: Gflops : Rate of execution for solving the linear system. The following parameter values will be used: -- T/V N NB P Q Time Gflops -------------------------------------------------------------------------------- WR12R2R4 14616 784 2 8 20.00 1.0409e+02
+Results Gflops: 1.0409e+02
+Writing input parameters and gflops to /users/rdscher/cs499/HPL/wheeler/gcc-11/param_sweep/HPL_results.csv
+Deleted /carc/scratch/users/rdscher/tmp.zbwQIAQiu6
