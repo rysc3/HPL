@@ -1,4 +1,5 @@
 # Readme
+The LINPACK Benchmarks are a measure of a system's floating-point computing power. Introduced by Jack Dongarra, they measure how fast a computer solves a dense n by n system of linear equations Ax = b, which is a common task in engineering.
 
 ## Hopper ##
 
@@ -17,3 +18,6 @@ up to 90gb ram/Node
 	#SBATCH -n 192
 
 ## Wheeler ## 
+	#SBATCH --partition normal 
+
+
